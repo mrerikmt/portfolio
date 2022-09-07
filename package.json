@@ -1,0 +1,16 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel scr/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "author": "Erik Snyder",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.7.0",
+    "prettier": "2.7.1",
+    "typescript": "^4.8.2"
+  }
+}
