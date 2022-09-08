@@ -14,8 +14,6 @@ const prevBtn = document.getElementById("prev-btn");
 
 let projId = localStorage.getItem("projectId");
 let id = projId;
-console.log(id);
-console.log("local storage", localStorage);
 
 const back = document.querySelector(".back-btn");
 
@@ -27,7 +25,7 @@ const pageArr = [
   {
     projectId: "1",
     // projImg: "/src/jsimages/orange.jpg",
-    projImg: "JS/jsimages/orange.jpg",
+    projImg: "/src/JS/jsimages/orange.jpg",
     projectDesc: `Galaxy Box`,
     pg: `Lorem ipsum dolor sit aet, consectetur adipiscing elit.
     Suspendisse varius enim in eros elementum tristique. Duis cursus.`,
@@ -39,7 +37,7 @@ const pageArr = [
   {
     projectId: "2",
     // projImg: "/src/jsimages/magenta.jpg",
-    projImg: "JS/jsimages/magenta.jpg",
+    projImg: "/src/JS/jsimages/magenta.jpg",
     projectDesc: `Two Clothes`,
     pg: `mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
     libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum`,
@@ -51,7 +49,7 @@ const pageArr = [
   {
     projectId: "3",
     // projImg: "/src/images/kodama-screen.jpg",
-    projImg: "JS/jsimages/kodama-screen.jpg",
+    projImg: "/src/JS/jsimages/kodama-screen.jpg",
     projectDesc: `Kodama Ramen`,
     pg: `Restaurant site featuring database connected online reservation booking, menu, and landing page`,
     category: "Custom",
