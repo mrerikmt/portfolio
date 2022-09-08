@@ -5,7 +5,8 @@ const paraId = document.getElementById("port-p");
 const projectDate = document.getElementById("p-date");
 const projectCategory = document.getElementById("p-category");
 const projBtn = document.getElementById("proj-btn");
-const projImg = document.getElementById("proj-img");
+// const projImg = document.getElementById("proj-img");
+const projImg = document.querySelector(".slide");
 const nextBtn = document.getElementById("next-btn");
 const prevBtn = document.getElementById("prev-btn");
 
