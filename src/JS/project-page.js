@@ -5,7 +5,8 @@ const paraId = document.getElementById("port-p");
 const projectDate = document.getElementById("p-date");
 const projectCategory = document.getElementById("p-category");
 const projBtn = document.getElementById("proj-btn");
-const projImg = document.getElementById("proj-img");
+// const projImg = document.getElementById("proj-img");
+const projImg = document.querySelector(".slide");
 const nextBtn = document.getElementById("next-btn");
 const prevBtn = document.getElementById("prev-btn");
 
@@ -13,8 +14,6 @@ const prevBtn = document.getElementById("prev-btn");
 
 let projId = localStorage.getItem("projectId");
 let id = projId;
-console.log(id);
-console.log("local storage", localStorage);
 
 const back = document.querySelector(".back-btn");
 
@@ -25,7 +24,7 @@ back.addEventListener("click", () => {
 const pageArr = [
   {
     projectId: "1",
-    projImg: "../src/images/orange.jpg",
+    projImg: "/src/images/orange.jpg",
     projectDesc: `Galaxy Box`,
     pg: `Lorem ipsum dolor sit aet, consectetur adipiscing elit.
     Suspendisse varius enim in eros elementum tristique. Duis cursus.`,
@@ -36,7 +35,7 @@ const pageArr = [
 
   {
     projectId: "2",
-    projImg: "../src/images/magenta.jpg",
+    projImg: "/src/images/magenta.jpg",
     projectDesc: `Two Clothes`,
     pg: `mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
     libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum`,
@@ -47,7 +46,7 @@ const pageArr = [
 
   {
     projectId: "3",
-    projImg: "../src/images/kodama-screen.jpg",
+    projImg: "/src/images/kodama-screen.jpg",
     projectDesc: `Kodama Ramen`,
     pg: `Restaurant site featuring database connected online reservation booking, menu, and landing page`,
     category: "Custom",
@@ -57,7 +56,7 @@ const pageArr = [
 
   {
     projectId: "4",
-    projImg: "../src/images/a-j-screen.jpg",
+    projImg: "/src/images/a-j-screen.jpg",
     projectDesc: `Alice & Jack`,
     pg: `A simple gallery site showcasing my kids artwork`,
     category: "Custom",
@@ -67,7 +66,7 @@ const pageArr = [
 
   {
     projectId: "5",
-    projImg: "../src/images/green.jpg",
+    projImg: "/src/images/green.jpg",
     projectDesc: `Placeholder 1`,
     pg: `lorem imperdiet. Nunc ut sem vitae risus tristique posuere.`,
     category: "Placeholder",
@@ -77,7 +76,7 @@ const pageArr = [
 
   {
     projectId: "6",
-    projImg: "../src/images/yellow.jpg",
+    projImg: "/src/images/yellow.jpg",
     projectDesc: `Placeholder 2`,
     pg: `lorem imperdiet. Nunc ut sem vitae risus tristique posuere.`,
     category: "Placeholder",
@@ -87,7 +86,7 @@ const pageArr = [
 
   {
     projectId: "7",
-    projImg: "../src/images/blue.jpg",
+    projImg: "/src/images/blue.jpg",
     projectDesc: `Placeholder 3`,
     pg: `lorem imperdiet. Nunc ut sem vitae risus tristique posuere.`,
     category: "Placeholder 3",
@@ -97,7 +96,7 @@ const pageArr = [
 
   {
     projectId: "8",
-    projImg: "../src/images/hope-screen.jpg",
+    projImg: "/src/images/hope-screen.jpg",
     projectDesc: `H.O.P.E`,
     pg: `Single page fundraising site for environmental organizations run by a group of kids.`,
     category: "Custom",

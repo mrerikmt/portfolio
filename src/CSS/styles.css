@@ -295,9 +295,9 @@ nav ul li a:hover {
       from(rgba(0, 0, 0, 0.5)),
       to(transparent)
     ),
-    url("../images/Forest-bckgrnd.png");
+    url("../images/Forest-bckgrnd.jpg");
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), transparent),
-    url("../images/Forest-bckgrnd.png");
+    url("../images/Forest-bckgrnd.jpg");
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -454,9 +454,9 @@ figure img:hover {
       from(rgba(0, 0, 0, 0.5)),
       to(transparent)
     ),
-    url("../images/tiger-mtn-fixed.png");
+    url("../images/tiger-mtn-fixed.jpg");
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), transparent),
-    url("../images/tiger-mtn-fixed.png");
+    url("../images/tiger-mtn-fixed.jpg");
   background-position: 0px 0px, 50% 50%;
   background-position: center center;
   background-size: auto, contain;
