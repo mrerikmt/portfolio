@@ -892,6 +892,13 @@ footer {
   }
 }
 @media screen and (max-width: 800px) {
+  * {
+      -webkit-transition: none !important;
+      -moz-transition: none !important;
+      -o-transition: none !important;
+      transition: none !important;
+    }
+  }
   .row {
     width: 95%;
   }
