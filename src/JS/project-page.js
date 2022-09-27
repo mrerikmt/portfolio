@@ -24,23 +24,21 @@ back.addEventListener("click", () => {
 const pageArr = [
   {
     projectId: "1",
-    // projImg: "/src/images/orange.jpg",
-    projImg: new URL("/src/images/orange.jpg", import.meta.url),
-    projectDesc: `Galaxy Box`,
-    pg: `Lorem ipsum dolor sit aet, consectetur adipiscing elit.
-    Suspendisse varius enim in eros elementum tristique. Duis cursus.`,
-    category: "Shopify",
-    link: "https://lucid-engelbart-2746eb.netlify.app/",
-    gitLink: "#",
+    // projImg: "/src/images/hope-screen.jpg",
+    projImg: new URL("/src/images/hope-screen.jpg", import.meta.url),
+    projectDesc: `H.O.P.E`,
+    pg: `Single page fundraising site for environmental organizations run by a group of kids.`,
+    category: "Custom",
+    link: "https://earth-hope.com/",
+    gitLink: "https://github.com/mrerikmt/hope",
   },
 
   {
     projectId: "2",
     // projImg: "/src/images/magenta.jpg",
-    projImg: new URL("/src/images/magenta.jpg", import.meta.url),
+    projImg: new URL("/src/images/two-clothes-screen.jpg", import.meta.url),
     projectDesc: `Two Clothes`,
-    pg: `mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
-    libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum`,
+    pg: `Shopify fashion brand development store using Prestige theme. Use password "awckib" to view site`,
     category: "Shopify",
     link: "https://kodama-ramen.netlify.app",
     gitLink: "#",
@@ -68,49 +66,50 @@ const pageArr = [
     gitLink: "https://github.com/mrerikmt/alice-jack",
   },
 
-  {
-    projectId: "5",
-    // projImg: "/src/images/green.jpg",
-    projImg: new URL("/src/images/green.jpg", import.meta.url),
-    projectDesc: `Placeholder 1`,
-    pg: `lorem imperdiet. Nunc ut sem vitae risus tristique posuere.`,
-    category: "Placeholder",
-    link: "#",
-    gitLink: "#",
-  },
+  // {
+  //   projectId: "5",
+  //   // projImg: "/src/images/orange.jpg",
+  //   projImg: new URL("/src/images/orange.jpg", import.meta.url),
+  //   projectDesc: `Galaxy Box`,
+  //   pg: `Lorem ipsum dolor sit aet, consectetur adipiscing elit.
+  //   Suspendisse varius enim in eros elementum tristique. Duis cursus.`,
+  //   category: "Shopify",
+  //   link: "https://lucid-engelbart-2746eb.netlify.app/",
+  //   gitLink: "#",
+  // },
 
-  {
-    projectId: "6",
-    // projImg: "/src/images/yellow.jpg",
-    projImg: new URL("/src/images/yellow.jpg", import.meta.url),
-    projectDesc: `Placeholder 2`,
-    pg: `lorem imperdiet. Nunc ut sem vitae risus tristique posuere.`,
-    category: "Placeholder",
-    link: "#",
-    gitLink: "#",
-  },
+  // {
+  //   projectId: "6",
+  //   // projImg: "/src/images/green.jpg",
+  //   projImg: new URL("/src/images/green.jpg", import.meta.url),
+  //   projectDesc: `Placeholder 1`,
+  //   pg: `lorem imperdiet. Nunc ut sem vitae risus tristique posuere.`,
+  //   category: "Placeholder",
+  //   link: "#",
+  //   gitLink: "#",
+  // },
 
-  {
-    projectId: "7",
-    // projImg: "/src/images/blue.jpg",
-    projImg: new URL("/src/images/blue.jpg", import.meta.url),
-    projectDesc: `Placeholder 3`,
-    pg: `lorem imperdiet. Nunc ut sem vitae risus tristique posuere.`,
-    category: "Placeholder 3",
-    link: "#",
-    gitLink: "#",
-  },
+  // {
+  //   projectId: "7",
+  //   // projImg: "/src/images/yellow.jpg",
+  //   projImg: new URL("/src/images/yellow.jpg", import.meta.url),
+  //   projectDesc: `Placeholder 2`,
+  //   pg: `lorem imperdiet. Nunc ut sem vitae risus tristique posuere.`,
+  //   category: "Placeholder",
+  //   link: "#",
+  //   gitLink: "#",
+  // },
 
-  {
-    projectId: "8",
-    // projImg: "/src/images/hope-screen.jpg",
-    projImg: new URL("/src/images/hope-screen.jpg", import.meta.url),
-    projectDesc: `H.O.P.E`,
-    pg: `Single page fundraising site for environmental organizations run by a group of kids.`,
-    category: "Custom",
-    link: "https://earth-hope.com/",
-    gitLink: "https://github.com/mrerikmt/hope",
-  },
+  // {
+  //   projectId: "8",
+  //   // projImg: "/src/images/blue.jpg",
+  //   projImg: new URL("/src/images/blue.jpg", import.meta.url),
+  //   projectDesc: `Placeholder 3`,
+  //   pg: `lorem imperdiet. Nunc ut sem vitae risus tristique posuere.`,
+  //   category: "Placeholder 3",
+  //   link: "#",
+  //   gitLink: "#",
+  // },
 ];
 
 let pageIndex = id;

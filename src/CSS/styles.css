@@ -90,7 +90,8 @@ p {
 }
 
 .button.button-white:hover {
-  background-color: hsla(0, 0%, 100%, 0.09);
+  /* background-color: hsla(0, 0%, 100%, 0.09); */
+  background-color: black;
 }
 
 .button.button-margin {
@@ -353,7 +354,6 @@ nav ul li a:hover {
 }
 
 .button-wrapper a {
-  /* font-size: 1.5vw; */
   font-size: 20px;
 }
 

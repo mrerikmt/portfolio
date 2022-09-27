@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
   animation: fadeInAnimation ease 1s;
   animation-iteration-count: 1;
@@ -125,8 +130,8 @@ body {
 .project-detail {
   position: relative;
   width: 100%;
+  height: 400px;
   padding: 20px 0 100px 0;
-  /* background-color: #81442b; */
   background-color: black;
 }
 
@@ -162,12 +167,15 @@ body {
 
 .port-p {
   margin-top: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 0;
   color: white;
   font-size: 20px;
+  height: 100px;
 }
 
 .proj-category {
+  position: absolute;
+  top: 250px;
   font-size: 150%;
   font-weight: 400;
   margin-bottom: 2%;
@@ -176,6 +184,8 @@ body {
 }
 
 .project {
+  position: absolute;
+  top: 285px;
   font-size: 20px;
   color: white;
 }
