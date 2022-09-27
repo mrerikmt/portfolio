@@ -897,6 +897,7 @@ footer {
       -moz-transition: none !important;
       -o-transition: none !important;
       transition: none !important;
+      animation: none !important;
     }
   }
   .row {
