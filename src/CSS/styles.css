@@ -511,13 +511,13 @@ figure img:hover {
       from(rgba(0, 0, 0, 0.43)),
       to(hsla(0, 0%, 100%, 0))
     ),
-    url("../images/bronze-texture.jpg");
+    url("../images/bronze-texture-1500.jpg");
   background-image: linear-gradient(
       180deg,
       rgba(0, 0, 0, 0.43),
       hsla(0, 0%, 100%, 0)
     ),
-    url("../images/bronze-texture.jpg");
+    url("../images/bronze-texture-1500.jpg");
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -894,10 +894,10 @@ footer {
 }
 @media screen and (max-width: 800px) {
   * {
-    -webkit-transition: none !important;
-    -moz-transition: none !important;
-    -o-transition: none !important;
-    transition: none !important;
+    /* -webkit-transition: none !important; */
+    /* -moz-transition: none !important; */
+    /* -o-transition: none !important; */
+    /* transition: none !important; */
     animation: none !important;
   }
   .header {
@@ -951,6 +951,23 @@ footer {
   .about p {
     font-size: 1rem;
   }
+  .services {
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(rgba(0, 0, 0, 0.43)),
+        to(hsla(0, 0%, 100%, 0))
+      ),
+      url("../images/bronze-texture-800.jpg");
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.43),
+        hsla(0, 0%, 100%, 0)
+      ),
+      url("../images/bronze-texture-800.jpg");
+  }
+
   .features .row {
     display: flex;
     flex-direction: column;
@@ -1238,6 +1255,22 @@ footer {
   }
   .portfolio ul {
     width: 100%;
+  }
+  .services {
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(rgba(0, 0, 0, 0.43)),
+        to(hsla(0, 0%, 100%, 0))
+      ),
+      url("../images/bronze-texture-400.jpg");
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.43),
+        hsla(0, 0%, 100%, 0)
+      ),
+      url("../images/bronze-texture-400.jpg");
   }
   .features-title {
     font-size: 6vw;
