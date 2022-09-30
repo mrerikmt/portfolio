@@ -312,7 +312,8 @@ nav ul li a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("../images/macbook90.png");
+  background-image: url("../images/macbook90-1200.png");
+  /* background-image: url("../images/macbook90.png"); */
   background-position: 50% 50%;
   background-size: auto 100%;
   /* background-size: cover; */
@@ -789,9 +790,9 @@ footer {
   margin: 0 1% 0 1%;
 }
 
-.social-icons-footer a:first-of-type {
+/* .social-icons-footer a:first-of-type {
   display: none;
-}
+} */
 
 .copyright {
   font-size: 125%;
@@ -893,13 +894,25 @@ footer {
 }
 @media screen and (max-width: 800px) {
   * {
-      -webkit-transition: none !important;
-      -moz-transition: none !important;
-      -o-transition: none !important;
-      transition: none !important;
-      animation: none !important;
-    }
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+    animation: none !important;
   }
+  .header {
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(rgba(0, 0, 0, 0.5)),
+        to(transparent)
+      ),
+      url("../images/Forest-bckgrnd800.jpg");
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), transparent),
+      url("../images/Forest-bckgrnd800.jpg");
+  }
+
   .row {
     width: 95%;
   }
@@ -921,6 +934,7 @@ footer {
   .splash {
     background-size: auto 105%;
     margin-top: 2%;
+    background-image: url("../images/macbook90-800.png");
   }
   .big-text {
     font-size: 5vw;
@@ -1193,10 +1207,23 @@ footer {
   }
 }
 @media screen and (max-width: 400px) {
+  .header {
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(rgba(0, 0, 0, 0.5)),
+        to(transparent)
+      ),
+      url("../images/Forest-bckgrnd400.jpg");
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), transparent),
+      url("../images/Forest-bckgrnd400.jpg");
+  }
   .splash {
     width: 100%;
     background-size: auto 100%;
     padding: 11% 0 13% 0;
+    background-image: url("../images/macbook90-400.png");
   }
   .big-text {
     margin-top: 15%;
