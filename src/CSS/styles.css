@@ -2,6 +2,12 @@ html {
   box-sizing: border-box;
 }
 
+html,
+body {
+  overscroll-behavior-y: none;
+  scroll-behavior: smooth;
+}
+
 *,
 *:before,
 *:after {
@@ -18,7 +24,6 @@ body {
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
-  overscroll-behavior: none;
 }
 
 section {
