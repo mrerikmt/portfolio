@@ -38,7 +38,7 @@ const pageArr = [
     projectDesc: `Galaxy Box`,
     pg: `Galaxy Box is a simple, single product Shopify site. The site also features a modified product page for an Amazon affilite product. To access the site click on link to the right and use password 'bifayb'.`,
     category: "Shopify",
-    link: "https://3nhaqobk80f0z0jj-66195980525.shopifypreview.com",
+    link: "https://x7lw7k3tacnr2712-66195980525.shopifypreview.com",
     gitLink: "#",
   },
 

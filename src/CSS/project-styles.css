@@ -333,8 +333,26 @@ body {
   .project-detail .desc {
     font-weight: 200;
   }
+  .project-detail {
+    height: auto;
+    padding: 20px 0 20px 0;
+  }
+  .port-p {
+    height: auto;
+  }
+  .proj-category {
+    position: relative;
+    top: auto;
+    margin-bottom: 1%;
+    margin-top: 4%;
+  }
+  .project {
+    position: relative;
+    top: auto;
+    margin-top: 2%;
+  }
 }
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
   .project-detail {
     height: auto;
     padding: 20px 0 20px 0;
@@ -351,7 +369,7 @@ body {
     position: relative;
     top: auto;
   }
-}
+} */
 @media screen and (max-width: 450px) {
   .desc,
   .proj-category,
