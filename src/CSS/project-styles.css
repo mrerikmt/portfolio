@@ -334,6 +334,24 @@ body {
     font-weight: 200;
   }
 }
+@media screen and (max-width: 500px) {
+  .project-detail {
+    height: auto;
+    padding: 20px 0 20px 0;
+  }
+  .port-p {
+    height: auto;
+  }
+  .proj-category {
+    position: relative;
+    top: auto;
+    margin-bottom: 1%;
+  }
+  .project {
+    position: relative;
+    top: auto;
+  }
+}
 @media screen and (max-width: 450px) {
   .desc,
   .proj-category,
