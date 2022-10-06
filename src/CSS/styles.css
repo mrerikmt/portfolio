@@ -378,6 +378,9 @@ nav ul li a:hover {
   background-color: black;
   padding-bottom: 5%;
   overflow: auto;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
 }
 
 .portfolio .row {
@@ -432,6 +435,7 @@ nav ul li a:hover {
   list-style: none;
   display: flex;
   padding-left: 0;
+  justify-content: center;
 }
 .portfolio ul li {
   position: relative;
@@ -1022,6 +1026,9 @@ footer {
     margin-top: 2%;
     font-size: 2.4vw;
   }
+  .portfolio ul li {
+    width: 30%;
+  }
   .videos {
     margin-bottom: 3%;
   }
@@ -1103,6 +1110,9 @@ footer {
   }
   .button-wrapper a {
     font-size: 1.5vw;
+  }
+  .portfolio ul li {
+    width: 33.3%;
   }
   .about {
     background-image: -webkit-gradient(
@@ -1283,14 +1293,6 @@ footer {
   .line-portfolio {
     margin-bottom: 5%;
   }
-  .portfolio ul {
-    width: 80%;
-    flex-wrap: wrap;
-    margin: 0 auto;
-  }
-  .portfolio ul li {
-    min-width: 50%;
-  }
   .about .row img:last-of-type {
     width: 30%;
     margin: 5% auto 5% auto;
@@ -1317,6 +1319,17 @@ footer {
   }
   .social-icons-footer {
     margin-top: 5%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .portfolio ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .portfolio ul li {
+    width: 50%;
   }
 }
 @media screen and (max-width: 400px) {
@@ -1351,6 +1364,9 @@ footer {
   }
   .portfolio ul {
     width: 100%;
+  }
+  .portfolio ul li {
+    width: 70%;
   }
   .videos div {
     width: 100vw;
@@ -1403,6 +1419,9 @@ footer {
   .big-text {
     margin-top: 16%;
     font-size: 7vw;
+  }
+  .portfolio ul li {
+    width: 90%;
   }
   .about p {
     font-size: 1.25rem;

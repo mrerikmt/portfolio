@@ -34,16 +34,6 @@ const pageArr = [
 
   {
     projectId: "2",
-    projImg: new URL("/src/images/galaxy-box-screen.jpg", import.meta.url),
-    projectDesc: `Galaxy Box`,
-    pg: `Galaxy Box is a simple, single product Shopify site. The site also features a modified product page for an Amazon affilite product. To access the site click on link to the right and use password 'bifayb'.`,
-    category: "Shopify",
-    link: "https://x7lw7k3tacnr2712-66195980525.shopifypreview.com",
-    gitLink: "#",
-  },
-
-  {
-    projectId: "3",
     projImg: new URL("/src/images/kodama-screen.jpg", import.meta.url),
     projectDesc: `Kodama Ramen`,
     pg: `Restaurant site featuring database connected online reservation booking, menu, and landing page`,
@@ -53,7 +43,7 @@ const pageArr = [
   },
 
   {
-    projectId: "4",
+    projectId: "3",
     projImg: new URL("/src/images/a-j-screen.jpg", import.meta.url),
     projectDesc: `Alice & Jack`,
     pg: `A simple gallery site showcasing my kids artwork`,
@@ -61,6 +51,15 @@ const pageArr = [
     link: "https://lucid-engelbart-2746eb.netlify.app/",
     gitLink: "https://github.com/mrerikmt/alice-jack",
   },
+  // {
+  //   projectId: "4",
+  //   projImg: new URL("/src/images/galaxy-box-screen.jpg", import.meta.url),
+  //   projectDesc: `Galaxy Box`,
+  //   pg: `Galaxy Box is a simple, single product Shopify site. The site also features a modified product page for an Amazon affilite product. To access the site click on link to the right and use password 'bifayb'.`,
+  //   category: "Shopify",
+  //   link: "https://x7lw7k3tacnr2712-66195980525.shopifypreview.com",
+  //   gitLink: "#",
+  // },
 
   // {
   //   projectId: "5",
